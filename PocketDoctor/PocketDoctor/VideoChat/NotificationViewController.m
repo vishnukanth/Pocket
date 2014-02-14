@@ -33,17 +33,17 @@
     appDelegate=(LoginAppDelegate*)[UIApplication sharedApplication].delegate;
     self.view.backgroundColor=[UIColor colorWithHexString:@"#EFEFEF"];
     
-//    backBtn=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"l-arrow-ico.png"]];
-//    [backBtn setFrame:CGRectMake(9, 9, 20, 20)];
-//    [self.view addSubview:backBtn];
-//    
-//    backBtnTitle=[UIButton buttonWithType:UIButtonTypeCustom];
-//    [backBtnTitle setFrame:CGRectMake(5, 8, 90, 25)];
-//    [backBtnTitle setTitle:@"Back" forState:UIControlStateNormal];
-//    backBtnTitle.titleLabel.font=[UIFont fontWithName:@"Arial" size:18.0];
-//    [backBtnTitle setTitleColor:[UIColor colorWithHexString:@"#316CBA"] forState:UIControlStateNormal];
-//    [backBtnTitle addTarget:self action:@selector(backBtnClicked) forControlEvents:UIControlEventTouchUpInside];
-//    [self.view addSubview:backBtnTitle];
+    backBtn=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"l-arrow-ico.png"]];
+    [backBtn setFrame:CGRectMake(9, 9, 20, 20)];
+    [self.view addSubview:backBtn];
+    
+    backBtnTitle=[UIButton buttonWithType:UIButtonTypeCustom];
+    [backBtnTitle setFrame:CGRectMake(5, 8, 90, 25)];
+    [backBtnTitle setTitle:@"Back" forState:UIControlStateNormal];
+    backBtnTitle.titleLabel.font=[UIFont fontWithName:@"Arial" size:18.0];
+    [backBtnTitle setTitleColor:[UIColor colorWithHexString:@"#316CBA"] forState:UIControlStateNormal];
+    [backBtnTitle addTarget:self action:@selector(backBtnClicked) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:backBtnTitle];
     
     UIImage *doctorImage=[UIImage imageNamed:@"dr-photo.png"];
     UIImageView *doctImgView=[[UIImageView alloc]initWithFrame:CGRectMake(13, 50, doctorImage.size.width, doctorImage.size.height)];
