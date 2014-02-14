@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7B6B1E43-22E8-48C5-B441-CBF54F3B8F57</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PocketDoctor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>93B5A622-0669-48CE-A5F6-91ECC1E46935</key>
+		<string>https://github.com/vishnukanth/Pocket.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PocketDoctor/PocketDoctor.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>93B5A622-0669-48CE-A5F6-91ECC1E46935</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vishnukanth/Pocket.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>93B5A622-0669-48CE-A5F6-91ECC1E46935</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>93B5A622-0669-48CE-A5F6-91ECC1E46935</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Pocket</string>
+		</dict>
+	</array>
+</dict>
+</plist>
