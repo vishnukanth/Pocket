@@ -1,0 +1,26 @@
+//
+//  EmailViewController.h
+//  PocketDoctor
+//
+//  Created by vishnu on 09/12/13.
+//  Copyright (c) 2013 HexpressHealthCare. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "LoginAppDelegate.h"
+
+@interface EmailViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+{
+    LoginAppDelegate *appDelegate;
+    UIImageView *backBtn;
+    UIButton *backBtnTitle;
+    
+    UIActivityIndicatorView *activityView;
+    UIView *loadingView;
+    UILabel *loadingLabel;
+    UITableView *appointmentsTableView;
+    BOOL isGet;
+    NSString *strAppId;
+}
+
+@end
